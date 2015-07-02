@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/dist/js/jquery.peekabar.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../viraltag/work/viraltag-v2/app/views/layouts/app.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../viraltag/work/viraltag-v2/app/views/layouts/public.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../viraltag/work/viraltag-v2/app/views/layouts/slim.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../viraltag/work/viraltag-v2/bootstrap/start.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../viraltag/work/viraltag-v2/public/bower_components/jquery.peekABar/dist/css/jquery.peekabar.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../viraltag/work/viraltag-v2/public/bower_components/jquery.peekABar/dist/js/jquery.peekabar.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../viraltag/work/viraltag-v2/public/js/app/light-analytics/templates/analytics-model-template.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../viraltag/work/viraltag-v2/public/js/app/light-analytics/templates/parent-template.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../viraltag/work/viraltag-v2/public/js/app/light-analytics/views/parent-view.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../viraltag/work/viraltag-v2/public/js/app/posts/models/post-model.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../viraltag/work/viraltag-v2/public/js/app/posts/templates/post-model-template.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../viraltag/work/viraltag-v2/public/js/app/posts/views/post-model-view.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../viraltag/work/viraltag-v2/public/js/app/profiles/collections/profiles-collection.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../viraltag/work/viraltag-v2/public/js/app/profiles/models/profile-model.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../viraltag/work/viraltag-v2/public/js/app/profiles/templates/profile-model-template.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../viraltag/work/viraltag-v2/public/js/app/profiles/views/profile-model-view.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../viraltag/work/viraltag-v2/public/js/main.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../viraltag/work/viraltag-v2/public/scss/viraltag/modules/_notif-bar.scss" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../viraltag/work/viraltag-v2/public/scss/viraltag/partials/dashboard/_recent-uploads.scss" charset="UTF-8" />
+  </component>
+</project>
