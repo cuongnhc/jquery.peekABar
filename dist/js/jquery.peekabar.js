@@ -2,7 +2,7 @@
  * @license
  * jquery.peekABar 1.0.0 <http://kunalnagar.github.io/jquery.peekABar>
  * Copyright 2015 Kunal Nagar
- * Available under MIT license <http://kunalnagar.github.io/jquery.peekABar/license>
+ * Available under MIT license
  */
 ;(function($) {
 
@@ -26,6 +26,7 @@
 			delay: 3000,
 			autohide: false,
 			padding: '1em',
+			backgroundColor: 'rgb(195, 195, 195)',
 			animation: {
 				type: 'slide',
 				duration: 'slow'
@@ -49,8 +50,10 @@
 
 		/** Show the Bar */
 		this.show = function(args) {
-            if(args !== undefined && args.html) {
-				this.bar.html(args.html);
+			if(args !== undefined) {
+				if(args.html) {
+					this.bar.html(args.html);
+				}
 			}
 			switch (this.settings.animation.type) {
 				case 'slide':
@@ -63,7 +66,7 @@
 			if(this.settings.autohide) {
 				setTimeout(function () {
 					that.hide();
-				}, this.settings.autohide);
+				}, this.settings.delay);
 			}
 			this.settings.onShow.call(this, args);
 		};
@@ -93,6 +96,7 @@
 			_applyHTML();
 			_applyAutohide();
 			_applyPadding();
+			_applyBackgroundColor();
 			_applyOpacity();
 			_applyCSSClass();
 			_applyPosition();
@@ -116,6 +120,11 @@
 		/** Apply Padding */
 		var _applyPadding = function() {
 			that.bar.css('padding', that.settings.padding);
+		};
+
+		/** Apply Background Color */
+		var _applyBackgroundColor = function() {
+			that.bar.css('background-color', that.settings.backgroundColor);
 		};
 
 		/** Apply Custom CSS Class */

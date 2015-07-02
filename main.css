@@ -42,7 +42,7 @@ hr {
 }
 
 .demo hr {
-    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 .demo .col-lg-8 .btn {
@@ -58,4 +58,10 @@ hr {
     -ms-background: linear-gradient(120deg, #416a95, #128384) no-repeat;
     -o-background: linear-gradient(120deg, #416a95, #128384) no-repeat;
     color: white;
+}
+
+.custom-class {
+    background-color: #ff0000 !important;
+    color: white;
+    padding: 1.5em;
 }
